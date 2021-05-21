@@ -1,12 +1,6 @@
 import React from 'react';
 
 const Change = (props) => {
-    // let maxInput = props.change
-    // let props.change = maxInput
-    // let twentyValue = document.getElementById('twenty')
-    // let tenValue = document.getElementById('ten')
-    // let fiveValue = document.getElementById('five')
-    // let twoValue = document.getElementById('two')
     let form = document.getElementById('change-form')
     if (props.total !== 500){
         if (props.page !== 3) {
@@ -21,7 +15,6 @@ const Change = (props) => {
                     <p>How would you like your change?</p>
                     <p>Change Amount: ${props.change}</p>
                 <div id={"change-inputs"}>
-                    {/* <br></br> */}
                     <form id={"change-form"} onSubmit={(e) => props.dispenseChange(e) && props.food()}>
                     <p>$20's:</p>
                     <input id={"twenty"}  onInput={(e) => props.sub20(e)} type="number"  defaultValue={0} step={1}  min={0} max={props.change < 20 ? props.event20 : props.change + props.event20 }></input>{props.twenty === 0 ? alert("No more 20's in drawer, please pick a different bill.") : ''}

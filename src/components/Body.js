@@ -6,7 +6,6 @@ import Header from './Header'
 import Register from './Register'
 import Thanks from './Thanks'
 
-//if new state equals num then show page when you click back button on previous page
 class Body extends Component {
     constructor() {
         super();
