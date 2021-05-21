@@ -9,7 +9,7 @@ const Home = (props) => {
     return (
         <div className="main-page" style={{display: props.page === 1 && !props.showRegister ? "block" : "none"}}>
             <div>
-                <h1>Cost Of Itemmm</h1>
+                <h1>Cost Of Itemmmmm</h1>
                 <h1 className={"register-input"}>${isNaN(cost) ? 0 : cost}</h1>
             </div>
             <form onSubmit={(e) => props.next(e)} >
