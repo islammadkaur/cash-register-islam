@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:120px;
+}
+
+.body {
+  /* background-color: #282c34; */
+  background-color: #1a1a1a;
+  top: 2%;
+  padding: 0px;
+  margin-top: 100px;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.page-two {
+  margin-top: 40px;
+}
+
+.header{
+  background-color: rgb(116, 114, 114);
+  position: fixed;
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+
+.header h2:hover {
+  height: 80px;
+  color: rgb(133, 172, 255);
+  cursor: pointer;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  background-color:#52cafd;
+  border-style: none;
+  width: 40%;
+  height: 50px;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: white;
+}
+#back-next{
+  background-color:#88d6f7;
+  border-style: none;
+  width: 20%;
+  height: 60px;
+  border-radius: 10%;
+  font-size: 16px;
+  margin: 1%;
+}
+#back-next:hover {
+  background-color:#eafeff;
+}
+
+input {
+  width: 70%;
+  height: 50px;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  border-style: none
+} 
+
+#pay-bill button {
+ background-color:rgb(255, 255, 255);
+ width: 30%;
+ height: 60px;
+ max-width: 600px;
+ color:rgb(32, 187, 53);
+ font-size: 22px;
+ margin: 20px;
+}
+
+#change-inputs {
+  width: 70%;
+  margin-left: 10%;
+}
+#change-inputs input {
+ background-color:rgb(252, 252, 252);
+ width: 60%;
+ height: 50px;
+ color:rgb(32, 187, 53);
+ font-size: 22px;
+ border-radius: 0px;
+ display: inline;
+ position: relative;
+}
+
+#change-inputs p {
+  width: 20%;
+  display: inline-block;
+
+}
+#change-inputs button {
+  width: 30%;
+  margin-left:20%;
+}
+.page-three{
+  margin-top: 20px;
+}
+
+#pay-bill button:hover {
+  background-color:rgb(150, 255, 134);
+  width: 30%;
+}
+
+#footer  {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+#footer button {
+  width: 33%;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  border-right-style: solid;
+  border-right-color: black;
+}
+#footer button:hover {
+  background-color:rgb(223, 251, 252);
+  cursor: pointer;
+}
+
+#change-submit{
+  background-color:#52cafd;
+  border-style: none;
+  width: 30%;
+  height: 60px;
+  border-radius: 0px;
+  font-size: 20px;
+  margin: 2%;
+}
+#change-submit:hover{
+  background-color:#d1f1ff;
+
+}
+
+#change-form input {
+  background-color: rgb(247, 247, 247);
+}
